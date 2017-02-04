@@ -1,0 +1,7 @@
+@startuml
+App -> Server: GET LampX Status
+Server --> App: Respond LampX Status
+
+App -> Server: POST LampX status off
+App <-- Server: Respond success
+@enduml
