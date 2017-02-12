@@ -3,16 +3,42 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Page One</ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
+  <ion-list no-border>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+    <ion-list-header>
+      Lamps
+    </ion-list-header>
+
+    <ion-item>
+      <ion-toggle checked="false"></ion-toggle>
+      <ion-label>
+        Lamp 1
+      </ion-label>
+      <ion-icon name='bulb' item-left></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-toggle checked="false"></ion-toggle>
+      <ion-label>
+        Lamp 2
+      </ion-label>
+      <ion-icon name='bulb' item-left></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-toggle checked="false"></ion-toggle>
+      <ion-label>
+        Lamp 3
+      </ion-label>
+      <ion-icon name='bulb' item-left></ion-icon>
+    </ion-item>
+
+  </ion-list>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
