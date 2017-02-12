@@ -1,3 +1,9 @@
+# ionic
+app/node_modules/
+app/www/build/
+app/platforms/
+app/plugins/
+
 # Logs
 logs
 *.log
