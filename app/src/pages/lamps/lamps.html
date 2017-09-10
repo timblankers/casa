@@ -8,4 +8,16 @@
 
 <ion-content padding>
 
+  <button ion-button (click)='triggerAll("on")'>All On</button>
+  <button ion-button (click)='triggerAll("off")'>All Off</button>
+
+  <ion-card *ngFor="let lamp of lamps">
+    <ion-card-header>
+      Lamp {{lamp.id}}
+    </ion-card-header>
+    <ion-card-content>
+      <button ion-button (click)='triggerLamp(lamp.id, "on");'>On</button>
+      <button ion-button (click)='triggerLamp(lamp.id, "off");'>Off</button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
