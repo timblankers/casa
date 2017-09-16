@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Http, Response, Headers } from '@angular/http';
+import { Http, Response } from '@angular/http';
 import 'rxjs/add/operator/map'
 
 export class Lamp {

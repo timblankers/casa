@@ -8,4 +8,9 @@
 
 <ion-content padding>
   <h2>Live Feed</h2>
+
+  <button ion-button (click)='takePhoto();'>Take New Photo</button>
+  <ion-card>
+    <img [src]="photoSrc" />
+  </ion-card>
 </ion-content>
