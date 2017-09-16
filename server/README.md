@@ -5,6 +5,7 @@ NodeJS API using Express.
 ## Prerequisites
 - NodeJS
 - NPM
+- imagemagick
 - WiringX https://github.com/wiringX/wiringX
 - KaKu binary for GPIO ports
 
