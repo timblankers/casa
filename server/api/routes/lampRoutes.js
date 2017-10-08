@@ -9,4 +9,8 @@ module.exports = function(app) {
   app.route('/turnOn/:lampId')
     .get(lamps.turnOn)
     .post(lamps.turnOn)
+
+  app.route('/switchAll')
+    .get(lamps.switchAll)
+    .post(lamps.switchAll)
 };
